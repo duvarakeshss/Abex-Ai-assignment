@@ -12,6 +12,7 @@ class Config:
     MAX_TOKENS = 3000
     TEMPERATURE = 0.7
     TOP_P = 0.9
+    HF_API_KEY = os.getenv("HF_API_KEY")
 
 
 if not Config.SERP_API_KEY or not Config.DEEPSEEK_API_URL:
