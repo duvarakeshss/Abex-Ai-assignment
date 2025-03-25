@@ -64,5 +64,5 @@ class OutlineAgent:
 outline_tool = Tool(
     name="Outline Agent",
     func=OutlineAgent().run,
-    description="Generates an SEO blog outline using Hugging Face."
+    description="Generates an SEO blog outline"
 )

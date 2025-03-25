@@ -24,5 +24,5 @@ class ResearchAgent:
 research_tool = Tool(
     name="Research Agent",
     func=ResearchAgent().run,
-    description="Fetches relevant content for SEO blog from search results."
+    description="Fetches relevant content for SEO blog"
 )

@@ -19,7 +19,7 @@ class ContentGenerationAgent:
         """Generates text for a given section using Mistral-7B."""
         response = self.client.chat_completion(
             messages=[
-                {"role": "system", "content": "You are a professional SEO blog writer."},
+                {"role": "system", "content": "SEO blog"},
                 {"role": "user", "content": section_prompt}
             ],
             max_tokens=self.chunk_size,
