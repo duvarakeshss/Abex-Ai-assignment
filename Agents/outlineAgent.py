@@ -1,7 +1,7 @@
 import os
 from huggingface_hub import InferenceClient
 from dotenv import load_dotenv
-from config import Config
+from config.config import Config
 from langchain.tools import Tool
 
 # Load environment variables

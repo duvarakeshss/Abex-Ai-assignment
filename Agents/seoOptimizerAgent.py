@@ -1,6 +1,6 @@
 import requests
 from langchain.tools import Tool
-from config import Config
+from config.config import Config
 
 class SEOOptimizationAgent:
     def __init__(self):

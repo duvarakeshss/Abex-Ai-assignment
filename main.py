@@ -4,7 +4,7 @@ from Agents.outlineAgent import OutlineAgent
 from Agents.contentGenerationAgent import ContentGenerationAgent
 from Agents.seoOptimizerAgent import SEOOptimizationAgent
 from Agents.reviewAgent import ReviewAgent
-from config import Config
+from config.config import Config
 
 def main():
     print("Fetching research data")
@@ -47,7 +47,7 @@ def main():
         print("Failed to review blog content. Exiting.")
         return
 
-    output_file = "generated_blog.txt"
+    output_file = "output/generated_blog.txt"
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(optimized_content)
 
