@@ -32,12 +32,14 @@ Abex-Ai-assignment/
 │ ├── contentGenerationAgent.py
 │ ├── seoOptimizerAgent.py
 │ ├── reviewAgent.py
-├── config.py
-├── .env
+├── Config/
+| |── config.py
+| ├── .env
 ├── main.py
 ├── requirements.txt
 ├── README.md
-├── generated_blog.txt
+├── output/
+| ├── generated_blog.txt
 ```
 ---
 
