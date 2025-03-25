@@ -1,0 +1,6 @@
+langchain
+openai
+serpapi
+python-dotenv
+requests
+beautifulsoup4
