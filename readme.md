@@ -51,7 +51,12 @@ Abex-Ai-assignment/
 git clone https://github.com/duvarakeshss/Abex-Ai-assignment
 cd Abex-Ai-assignment
 ```
-
+### Replace your api key
+```
+├── Config/
+| |── config.py
+| ├── .env    (replace your apikeys)
+```
 ### Create a Virtual Environment
 
 ```sh
