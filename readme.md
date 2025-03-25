@@ -1,7 +1,7 @@
 # **Multi-Agent SEO Blog Generator**
 
 This project is an **AI-powered SEO Blog Generator**
-It utilizes serp for research,**Mistral-7B-Instruct-v0.1** for outline creation,**LLaMA-3 via Groq ** for content generation, SEO optimization, and final review.
+It utilizes serp for research,**Mistral-7B-Instruct-v0.1** for outline creation,**LLaMA-3 via Groq** for content generation, SEO optimization, and final review.
 
 ## **Features**
 
