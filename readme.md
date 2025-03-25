@@ -13,7 +13,7 @@ It utilizes for research,**Mistral-7B-Instruct-v0.1** for outline creation,**LLa
 
 ---
 
-## **Project Approach**
+## **Key Approach**
 
 1. **ResearchAgent** → Search and gathers relevant information using serapi from google search.
 2. **OutlineAgent** → Creates a structured blog outline using **Mistral-7B-Instruct-v0.1**.
@@ -24,26 +24,21 @@ It utilizes for research,**Mistral-7B-Instruct-v0.1** for outline creation,**LLa
 ---
 
 ## **File Structure**
-
-# Project File Structure
-
-| Abex-Ai-assignment
-
-|Agents
-
-    |-researchAgent.py
-    |-outlineAgent.py
-    |-contentGenerationAgent.py
-    |-seoOptimizerAgent.py
-    |-reviewAgent.py
-
-|- config.py
-|- .env
-|- main.py
-|- requirements.txt
-|- README.md
-|- generated_blog.txt
-
+```
+Abex-Ai-assignment/
+├── Agents/
+│ ├── researchAgent.py
+│ ├── outlineAgent.py
+│ ├── contentGenerationAgent.py
+│ ├── seoOptimizerAgent.py
+│ ├── reviewAgent.py
+├── config.py
+├── .env
+├── main.py
+├── requirements.txt
+├── README.md
+├── generated_blog.txt
+```
 ---
 
 ## How to Set Up & Run
@@ -87,7 +82,6 @@ pip install -r requirements.txt
 python main.py
 ```
 # Report
-# **Approach to Solving the Multi-Agent SEO Blog Generator Problem**
 
 ## **Problem Statement**  
 The goal was to create an automated system that generates high-quality, SEO-optimized blog posts using multiple AI agents. The system needed to research topics, generate structured content, optimize for SEO, and ensure content quality through review.
